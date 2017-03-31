@@ -25,6 +25,12 @@
 
 }
 
+@media only screen and (max-width: 568px){
+    .main-slider img {
+        display: none !important;
+    }
+} 
+
 /*md only*/
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-4.portfolio-item{
